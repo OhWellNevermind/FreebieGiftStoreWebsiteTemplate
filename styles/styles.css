@@ -13,6 +13,8 @@ a {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -117,6 +119,7 @@ button {
   justify-content: center;
   align-items: center;
   padding-top: 48px;
+  margin-bottom: 47px;
 }
 
 .hero-title {
@@ -153,4 +156,49 @@ button {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #d84e13;
+}
+
+/* Clients and years */
+
+.clients-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  height: 643px;
+  padding: 28px;
+}
+
+.desc-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.76);
+  border-radius: 10px;
+  padding: 44px 64px;
+  padding-bottom: 38px;
+  padding-left: 41px;
+}
+
+.desc-wrapper-clients {
+  align-self: flex-start;
+}
+
+.desc-wrapper-years {
+  align-self: flex-end;
+}
+
+.desc-count {
+  margin-right: 16px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.5;
+  color: #ff6a28;
+}
+
+.desc-text {
+  max-width: 219px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(18, 18, 18, 0.83);
 }
