@@ -147,4 +147,10 @@ button {
   line-height: 1.5;
   padding: 11px 39px;
   color: #ffffff;
+  transition: background-color 250ms linear;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #d84e13;
 }
