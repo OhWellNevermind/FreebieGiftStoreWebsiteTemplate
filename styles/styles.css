@@ -1,5 +1,7 @@
 body {
   font-family: Poppins, sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 h1,
@@ -9,6 +11,12 @@ p,
 a {
   margin: 0;
   padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 ul {
@@ -201,5 +209,67 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
+  color: rgba(18, 18, 18, 0.83);
+}
+
+/* ABOUT SECTION */
+.about-container {
+  margin-bottom: 99px;
+}
+
+.about-title {
+  font-family: "Playfair Display";
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.33;
+  color: #121212;
+}
+
+.about-text {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.75;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.about-text::before {
+  margin-left: 12px;
+  margin-right: 17px;
+  content: "";
+  display: block;
+  width: 67px;
+  height: 2px;
+  background-color: #ff6a28;
+}
+.about-list {
+  width: 1516px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.about-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 325px;
+}
+
+.about-list-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #121212;
+}
+.about-list-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: justify;
   color: rgba(18, 18, 18, 0.83);
 }
