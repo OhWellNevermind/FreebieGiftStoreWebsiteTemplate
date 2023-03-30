@@ -273,3 +273,109 @@ button {
   text-align: justify;
   color: rgba(18, 18, 18, 0.83);
 }
+
+/* REVIEWS SECTION */
+.reviews-section {
+  margin-bottom: 84px;
+  background-color: #f8fafb;
+  padding-bottom: 77px;
+  padding-top: 56px;
+}
+
+.reviews-title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.33;
+  color: #121212;
+}
+
+.reviews-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.75;
+  color: rgba(18, 18, 18, 0.6);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-bottom: 39px;
+}
+
+.reviews-text::before {
+  margin-left: 12px;
+  margin-right: 17px;
+  content: "";
+  display: block;
+  width: 67px;
+  height: 2px;
+  background-color: #ff6a28;
+}
+
+.reviews-client-wrapper {
+  display: flex;
+}
+
+.reviews-client-img {
+  margin-right: 40px;
+}
+
+.reviews-client-info {
+  width: 585px;
+  padding-left: 10px;
+  padding-right: 16px;
+}
+
+.reviews-client-name {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.5;
+  color: #121212;
+  margin-bottom: 3px;
+}
+.reviews-client-desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.75;
+  color: rgba(18, 18, 18, 0.6);
+  margin-bottom: 34px;
+}
+.reviews-client-comment {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.91;
+  /* text-align: justify; */
+  color: rgba(18, 18, 18, 0.83);
+}
+.reviews-btn-list {
+  display: flex;
+  gap: 21px;
+}
+
+.reviews-btn {
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 21px 19px 21px;
+  transition: background-color 250ms linear;
+}
+
+.arrow-icon {
+  width: 18px;
+  height: 16px;
+  fill: #ff6a28;
+  transition: fill 250ms linear;
+}
+
+.arrow-icon-right {
+  transform: rotate(180deg);
+}
+
+.reviews-btn:hover,
+.reviews-btn:focus {
+  background-color: #ff6a28;
+}
+
+.reviews-btn:hover .arrow-icon,
+.reviews-btn:focus .arrow-icon {
+  fill: #fff;
+}
