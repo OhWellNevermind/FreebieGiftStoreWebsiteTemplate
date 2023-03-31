@@ -370,12 +370,10 @@ button {
   transform: rotate(180deg);
 }
 
-.reviews-btn:hover,
-.reviews-btn:focus {
+.reviews-btn:hover {
   background-color: #ff6a28;
 }
 
-.reviews-btn:hover .arrow-icon,
-.reviews-btn:focus .arrow-icon {
+.reviews-btn:hover .arrow-icon {
   fill: #fff;
 }
